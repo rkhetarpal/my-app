@@ -2,8 +2,8 @@ import "./LabServices.scss"
 import React, { useState, useRef, useEffect } from "react";
 import "animate.css/animate.min.css";
 import about from "../../Assets/Images/Laboratory Services/slider.png"
-import labElement1 from "../../Assets/Images/About/lab element one.png"
-import labElement2 from "../../Assets/Images/About/lab element two.png"
+import labElement1 from "../../Assets/Images/About/lab_element_one.png"
+import labElement2 from "../../Assets/Images/About/lab_element_two.png"
 import aboutbg from "../../Assets/Images/About/bg.jpg"
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,12 +11,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import img from "../../Assets/Images/2149335686.jpg"
-import l1 from "../../Assets/Images/Laboratory Services/Analysis of Water, Air, Effluent, Noise, Luminosity, Chemicals, Food, Oil.jpg"
-import l2 from "../../Assets/Images/Laboratory Services/Pilot Plant Studies.jpg"
-import l3 from "../../Assets/Images/Laboratory Services/Treatability Studies.jpg"
-import l4 from "../../Assets/Images/Laboratory Services/Lab Steps and Accreditations.jpg"
-import l5 from "../../Assets/Images/Laboratory Services/Corrosion Coupon Studies.jpg"
-import l6 from "../../Assets/Images/Laboratory Services/Environmental Studies.jpg"
+import l1 from "../../Assets/Images/Laboratory Services/Analysis_of_Water_Air_Effluent_Noise_Luminosity_Chemicals_Food_Oil.jpg"
+import l2 from "../../Assets/Images/Laboratory Services/Pilot_Plant_Studies.jpg"
+import l3 from "../../Assets/Images/Laboratory Services/Treatability_Studies.jpg"
+import l4 from "../../Assets/Images/Laboratory Services/Lab_Steps_and_Accreditations.jpg"
+import l5 from "../../Assets/Images/Laboratory Services/Corrosion_Coupon_Studies.jpg"
+import l6 from "../../Assets/Images/Laboratory Services/Environmental_Studies.jpg"
 import ReadMoreArea from '@foxeian/react-read-more';
 import { Link } from "react-router-dom"
 import { Helmet } from "react-helmet";

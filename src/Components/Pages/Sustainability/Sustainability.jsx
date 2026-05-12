@@ -2,8 +2,8 @@ import "../LabServices/LabServices.scss"
 import React, { useState, useRef, useEffect } from "react";
 import "animate.css/animate.min.css";
 import about from "../../Assets/Images/Sustainability/slider.png"
-import labElement1 from "../../Assets/Images/About/lab element one.png"
-import labElement2 from "../../Assets/Images/About/lab element two.png"
+import labElement1 from "../../Assets/Images/About/lab_element_one.png"
+import labElement2 from "../../Assets/Images/About/lab_element_two.png"
 import aboutbg from "../../Assets/Images/About/bg.jpg"
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,13 +14,13 @@ import img from "../../Assets/Images/2149335686.jpg"
 import { Link } from "react-router-dom"
 import { Helmet } from "react-helmet";
 
-import s1 from "../../Assets/Images/Sustainability/Water Footprint Mapping.jpg"
-import s2 from "../../Assets/Images/Sustainability/Environment Footprint Mapping.jpg"
-import s3 from "../../Assets/Images/Sustainability/Water and Environmental Audits.jpg"
-import s4 from "../../Assets/Images/Sustainability/Eco Labelling.jpg"
-import s5 from "../../Assets/Images/Sustainability/CSR Reports Preparations.jpg"
-import s6 from "../../Assets/Images/Sustainability/Improvements in WTP`s, ETP`s and Recycling Systems.jpg"
-import s7 from "../../Assets/Images/Sustainability/Only One Earth.jpg"
+import s1 from "../../Assets/Images/Sustainability/Water_Footprint_Mapping.jpg"
+import s2 from "../../Assets/Images/Sustainability/Environment_Footprint_Mapping.jpg"
+import s3 from "../../Assets/Images/Sustainability/Water_and_Environmental_Audits.jpg"
+import s4 from "../../Assets/Images/Sustainability/Eco_Labelling.jpg"
+import s5 from "../../Assets/Images/Sustainability/CSR_Reports_Preparations.jpg"
+import s6 from "../../Assets/Images/Sustainability/Improvements_in_WTPs_ETPs_and_Recycling_Systems.jpg"
+import s7 from "../../Assets/Images/Sustainability/Only_One_Earth.jpg"
 
 const Home = () => {
   useEffect(() => {

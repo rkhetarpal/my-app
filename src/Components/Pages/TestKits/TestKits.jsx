@@ -2,8 +2,8 @@ import "../LabServices/LabServices.scss"
 import React, { useState, useRef, useEffect } from "react";
 import "animate.css/animate.min.css";
 import about from "../../Assets/Images/Test Kits/slider.png"
-import labElement1 from "../../Assets/Images/About/lab element one.png"
-import labElement2 from "../../Assets/Images/About/lab element two.png"
+import labElement1 from "../../Assets/Images/About/lab_element_one.png"
+import labElement2 from "../../Assets/Images/About/lab_element_two.png"
 import aboutbg from "../../Assets/Images/About/bg.jpg"
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";

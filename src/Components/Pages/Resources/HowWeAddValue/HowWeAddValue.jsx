@@ -1,6 +1,6 @@
 import "./HowWeAddValue.scss"
 import React, { useState, useRef, useEffect } from "react";
-import dev from "../../../Assets/Images/how we add value.jpg"
+import dev from "../../../Assets/Images/how_we_add_value.jpg"
 import { Helmet } from "react-helmet";
 
 const Home = () => {

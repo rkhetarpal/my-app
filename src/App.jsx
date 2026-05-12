@@ -5,7 +5,7 @@ import Header from "./Components/Molecules/Header/Header";
 import Preloader from "./Components/Molecules/Preloader/Preloader";
 import Footer from "./Components/Molecules/Footer/Footer";
 import Home from "./Components/Pages/Home/Home"
-import "./Components/Assets/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 // import "./Components/Assets/dist/css/wedget.css"
 import "./Components/Assets/Sass/style.scss"
 import AboutUs from "./Components/Pages/About/About"

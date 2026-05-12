@@ -1,0 +1,196 @@
+@use "../../../Assets/Sass/variable.scss" as *;
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+.faq {
+    margin: 0;
+    padding: 4rem;
+    width: 100%;
+    //   max-width: 80rem;
+    margin-top: 10%;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.s {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+    h3 {
+        text-align: center;
+        border: 1px solid #fff;
+        font-size: 20px;
+        padding: 10px;
+        background: $secondary-color;
+        color: #fff;
+        margin-right: 10px;
+        box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.3);
+
+    }
+
+
+
+    .accordion-item {
+        border: none;
+        padding: 10px 20px;
+        border: 1px solid $secondary-color;
+        height: 12vh;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.3);
+
+
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+
+
+}
+
+$xs: 320px;
+$sm: 480px;
+$md: 767px;
+$lg: 1024px;
+$xl: 1920px;
+
+@media (min-width: $xs) and (max-width: $sm) {
+    .faq {
+        padding: 25% 0 0 0;
+    }
+
+    .s {
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    .accordion {
+        width: 90%;
+
+        h3 {
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .accordion-item {
+            height: 28vh;
+            padding: 5px 10px;
+
+            p {
+                line-height: 130%;
+
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: $md) and (orientation: landscape) {
+    .faq {
+        padding: 15% 0 0 0;
+    }
+
+    .s {
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    .accordion {
+        width: 90%;
+
+        h3 {
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .accordion-item {
+            height: 20vh;
+            padding: 5px 10px;
+
+            p {
+                // font-size: 14px;
+                // line-height: 150%;
+
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: $md) and (orientation: portrait) {
+    .faq {
+        padding: 15% 0 0 0;
+    }
+
+    .s {
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    .accordion {
+        width: 90%;
+
+        h3 {
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .accordion-item {
+            height: 25vh;
+            padding: 5px 10px;
+
+            p {
+                // font-size: 14px;
+                line-height: 150%;
+
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: $lg) {
+    .faq {
+        padding: 10% 0 0 0;
+    }
+
+    .s {
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    .accordion {
+        width: 90%;
+
+        h3 {
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .accordion-item {
+            height: 20vh;
+            padding: 5px 10px;
+
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {}

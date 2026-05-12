@@ -1,0 +1,108 @@
+@use "sass:math";
+$transition-speed: 0.8s;
+$gap: 20px;
+$frame-color: rgba(8, 142, 217, 1); // Wooden frame color
+$inner-border: #e0c097; // Lighter gold accent
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  //   max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.sliderTrack {
+  display: flex;
+  gap: $gap;
+  transition: transform $transition-speed ease-in-out;
+  will-change: transform;
+}
+
+.slide {
+  flex: 0 0 calc(100% / 4 - #{math.div($gap, 3)});
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 30px;
+
+  img {
+    width: calc(100% / 3.5);
+    height: auto;
+    margin: 20px 15px;
+
+    &:nth-child(7),
+    &:nth-child(8) {
+      width: calc(100% - (100% / 1.79));
+    }
+
+    background: white;
+    border: 10px solid $inner-border; // Inner gold line
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3); // Inner shadow effect
+    // border-radius: 5px;
+
+    // Outer frame
+    outline: 12px solid $frame-color; // Wooden outer frame
+    outline-offset: -10px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4),
+    // Outer shadow for depth
+    inset 0 0 10px rgba(0, 0, 0, 0.2); // Inner shadow for a recessed look
+
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow:
+        0 10px 20px rgba(0, 0, 0, 0.5),
+        inset 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+$xs: 320px;
+$sm: 480px;
+$md: 767px;
+$lg: 1024px;
+$xl: 1920px;
+
+@media (min-width: $xs) and (max-width: $sm) {
+  .slide {
+    img {
+      width: 100%;
+
+      &:nth-child(7),
+      &:nth-child(8) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: $md) and (orientation: landscape) {
+  .slide {
+    img {
+      width: calc(100% / 2.22);
+
+      &:nth-child(7),
+      &:nth-child(8) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: $md) and (orientation: portrait) {.slide{
+  img{
+    width: 100%;
+    &:nth-child(7), &:nth-child(8) {
+      width: 100%;
+    }
+  }
+}}
+
+@media (min-width: 768px) and (max-width: $lg) {}
+
+@media (min-width: 1025px) and (max-width: 1440px) {}

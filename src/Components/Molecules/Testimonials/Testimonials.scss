@@ -1,0 +1,88 @@
+.testimonial {
+    padding: 5% 2%;
+    background-attachment: fixed;
+    background-position: 20% 50%;
+
+    background: url("../../Assets/Images/6411.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .circle {
+        h2 {
+            color: #000;
+
+        }
+    }
+}
+
+
+.testimonial-container {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    padding: 20px;
+    background: transparent;
+
+    .testimonial-column {
+        width: 33.3%;
+        height: 500px; // Adjust height as needed
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        scrollbar-width: none; // Hide scrollbar for Firefox
+        -ms-overflow-style: none; // Hide scrollbar for IE/Edge
+
+        &::-webkit-scrollbar {
+            display: none; // Hide scrollbar for Chrome/Safari
+        }
+    }
+
+    .testimonial-card {
+        background: rgba($color: #fff, $alpha: 0.3);
+        padding: 15px;
+        border-radius: 10px;
+        // box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        border: 1px solid rgba($color: #fff, $alpha: 1);
+
+        &:hover {
+            box-shadow: 4px 2px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .testimonial-avatar {
+                width: 50px;
+                height: 50px;
+                background: #ccc;
+                border-radius: 50%;
+            }
+
+            h3 {
+                margin: 0;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .username {
+                font-size: 14px;
+                color: #666;
+            }
+        }
+
+        .testimonial-message {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .testimonial-time {
+            font-size: 12px;
+            color: #888;
+        }
+    }
+}

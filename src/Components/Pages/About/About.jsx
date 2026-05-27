@@ -24,7 +24,7 @@ import story from "../../Assets/Images/About/story.jpg"
 import styles from "./CertificateSlider.module.scss";
 import cert3 from "../../Assets/Images/About/Certificates/Certificate_Global_Water_Partnership_page-0001.jpg"
 import cert4 from "../../Assets/Images/About/Certificates/Certificate_TC-7160.pdf-2024-26_page-0001.jpg"
-import cert11 from "../../Assets/Images/About/Certificates/NABL-2026-30.png"
+import cert11 from "../../Assets/Images/About/Certificates/NABL-2026-30.jpg"
 import cert5 from "../../Assets/Images/About/Certificates/Print_Udyam_Registration_Certificate-1_page-0001.jpg"
 import cert6 from "../../Assets/Images/About/Certificates/Quality_Analyst_&_Labs_EMS_(1).jpg"
 import cert7 from "../../Assets/Images/About/Certificates/Quality_Analyst_&_Labs_QMS_(1).jpg"

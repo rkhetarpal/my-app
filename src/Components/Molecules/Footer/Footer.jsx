@@ -184,7 +184,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="footer-bottom">
-            <p> © {new Date().getFullYear()} Quality Lab. All rights reserved. Designed By <a style={{color: "#fff"}} href="https://ahsassuredservices.com/web_design_and_development"> AHS</a></p>
+            <p> © {new Date().getFullYear()} Only One Earth. All rights reserved. Designed By Dev</p>
           </div>
 
         </div>

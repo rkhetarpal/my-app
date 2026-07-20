@@ -24,13 +24,18 @@ import story from "../../Assets/Images/About/story.jpg"
 import styles from "./CertificateSlider.module.scss";
 import cert3 from "../../Assets/Images/About/Certificates/Certificate_Global_Water_Partnership_page-0001.jpg"
 import cert4 from "../../Assets/Images/About/Certificates/Certificate_TC-7160.pdf-2024-26_page-0001.jpg"
-import cert11 from "../../Assets/Images/About/Certificates/NABL-2026-30.jpg"
 import cert5 from "../../Assets/Images/About/Certificates/Print_Udyam_Registration_Certificate-1_page-0001.jpg"
 import cert6 from "../../Assets/Images/About/Certificates/Quality_Analyst_&_Labs_EMS_(1).jpg"
 import cert7 from "../../Assets/Images/About/Certificates/Quality_Analyst_&_Labs_QMS_(1).jpg"
 import cert8 from "../../Assets/Images/About/Certificates/CERT_INSCAI_Devinder_Khetarpal_090425_page-0001.jpg"
 import cert9 from "../../Assets/Images/About/Certificates/2.jpg"
 import cert10 from "../../Assets/Images/About/Certificates/3.jpg"
+import cert11 from "../../Assets/Images/About/Certificates/NABL-2026-30.jpg"
+import cert12 from "../../Assets/Images/About/Certificates/GLP-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
+import cert13 from "../../Assets/Images/About/Certificates/ISO-14001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png
+"
+import cert14 from "../../Assets/Images/About/Certificates/ISO-45001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
+import cert15 from "../../Assets/Images/About/Certificates/ISO-9001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
 
 const Home = () => {
   useEffect(() => {
@@ -240,8 +245,12 @@ const Home = () => {
             <div className="cert-body">
 
               <div className={styles.slide}>
-                <img src={cert4} alt="Certificates" />
                 <img src={cert11} alt="Certificates" />
+                <img src={cert12} alt="Certificates" />
+                <img src={cert13} alt="Certificates" />
+                <img src={cert14} alt="Certificates" />
+                <img src={cert15} alt="Certificates" />
+                <img src={cert4} alt="Certificates" />
                 <img src={cert5} alt="Certificates" />
                 <img src={cert6} alt="Certificates" />
                 <img src={cert7} alt="Certificates" />

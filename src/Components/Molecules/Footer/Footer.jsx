@@ -184,7 +184,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="footer-bottom">
-            <p> © {new Date().getFullYear()} Only One Earth. All rights reserved. Designed By Dev</p>
+            <p> © {new Date().getFullYear()} Quality Lab. All rights reserved. Designed By Dev</p>
           </div>
 
         </div>

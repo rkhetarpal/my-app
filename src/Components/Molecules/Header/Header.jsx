@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from "../../Assets/Images/Only_One_Earth.jpg"
+import logo from "../../Assets/Images/logo.png"
 import "./Header.scss"
 import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa";

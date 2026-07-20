@@ -32,8 +32,7 @@ import cert9 from "../../Assets/Images/About/Certificates/2.jpg"
 import cert10 from "../../Assets/Images/About/Certificates/3.jpg"
 import cert11 from "../../Assets/Images/About/Certificates/NABL-2026-30.jpg"
 import cert12 from "../../Assets/Images/About/Certificates/GLP-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
-import cert13 from "../../Assets/Images/About/Certificates/ISO-14001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png
-"
+import cert13 from "../../Assets/Images/About/Certificates/ISO-14001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
 import cert14 from "../../Assets/Images/About/Certificates/ISO-45001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
 import cert15 from "../../Assets/Images/About/Certificates/ISO-9001-OF-EU-QUALITY-ANALYST-&-LABS-PVT-LTD.png"
 

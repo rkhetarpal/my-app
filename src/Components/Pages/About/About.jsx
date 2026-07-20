@@ -245,10 +245,10 @@ const Home = () => {
 
               <div className={styles.slide}>
                 <img src={cert11} alt="Certificates" />
-                <img src={cert12} alt="Certificates" />
+                {/* <img src={cert12} alt="Certificates" />
                 <img src={cert13} alt="Certificates" />
                 <img src={cert14} alt="Certificates" />
-                <img src={cert15} alt="Certificates" />
+                <img src={cert15} alt="Certificates" /> */}
                 <img src={cert4} alt="Certificates" />
                 <img src={cert5} alt="Certificates" />
                 <img src={cert6} alt="Certificates" />

@@ -358,7 +358,7 @@ const Home = () => {
                 transition={{ duration: 1 }}
               >
                 <div className="about-text">
-                  <h1 className="about-title">Welcome to Only One Earth</h1>
+                  <h1 className="about-title">Welcome to Quality Lab</h1>
                   <p className="about-description">
                     We are a 25 years young, Independent, Certified Laboratory, trusted by leading names, five-star hotels, embassies, industrial powerhouses, and water treatment OEMs. We deliver rapid, accurate results across a wide range of testing needs. From ensuring water purity and food safety to monitoring crucial environmental parameters like air, soil, and effluent, we've covered you with tailored testing packages. Our state-of-the-art lab is packed with cutting-edge scientific instruments, enabling detailed analysis of everything from chemicals and metals to building materials, pilot plant studies, treatability studies lab steps and accreditations, corrosion coupon studies, environmental studies, oils, and more.
                   </p>
